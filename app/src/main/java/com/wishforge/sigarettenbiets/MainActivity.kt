@@ -11,7 +11,6 @@ import android.widget.LinearLayout
 import android.widget.ScrollView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
 
@@ -98,7 +97,7 @@ class MainActivity : AppCompatActivity() {
                     setDayCount(colleague, getDayCount(colleague) + 1)
                     setTotalCount(colleague, getTotalCount(colleague) + 1)
                     refreshCountersFor(colleague)
-                    verdictText.text = verdicts[Random.nextInt(verdicts.size)]
+                    verdictText.text = verdicts.random()
                 }
             })
 
