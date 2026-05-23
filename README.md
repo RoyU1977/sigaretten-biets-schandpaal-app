@@ -15,7 +15,7 @@ Dit is gecontroleerde productoutput voor issue #462: een minimale Android-native
 - dagteller per collega;
 - totaalteller per collega;
 - handmatige dagreset (per collega en als totaalreset);
-- directe grote korte Engelse verdict/oneliner.
+- directe grote, korte Engelse verdict/oneliner.
 
 ## Scope- en systeemgrenzen
 
