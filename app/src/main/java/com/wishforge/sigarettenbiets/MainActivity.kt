@@ -1,5 +1,6 @@
 package com.wishforge.sigarettenbiets
 
+import android.app.Activity
 import android.content.SharedPreferences
 import android.graphics.Typeface
 import android.os.Bundle
@@ -10,9 +11,8 @@ import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.ScrollView
 import android.widget.TextView
-import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : Activity() {
 
     private val colleagues = listOf("Sam", "Noor", "Milan", "Sophie", "Daan")
     private val verdicts = listOf(
